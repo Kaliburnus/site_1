@@ -40,7 +40,7 @@ nav a:hover{
 /* Main --------------- */
 
 main{
-  padding: 200px 200px;
+  padding: 100px 300px 200px 300px;
   box-sizing: border-box;
   background-color: black;
 }
@@ -51,6 +51,7 @@ main .genres{
   align-content: center;
   flex-wrap: wrap;
   gap: 80px;
+  text-align: center;
 }
 
 .genres a:hover{
@@ -79,13 +80,10 @@ footer{
 /* Media queries -------------- */
 
 @media all and (width < 800px){
-  .card{
+  .genres a{
     background-color: rgba(255, 0, 0, 0.25);
     border-color: rgb(255, 0, 0);
     border-radius: 0px;
-  }
-  .card p{
-    display: none;
   }
   nav{
     width: 90%;
